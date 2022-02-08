@@ -3,7 +3,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Task5 {
-    public void task5(){        Scanner in = new Scanner(System.in);
+    public void task5() {
+        Scanner in = new Scanner(System.in);
         System.out.print("Введите объем сейфа: ");
         int value = Integer.parseInt(in.next());
         System.out.print("Введите количество предметов: ");
